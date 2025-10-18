@@ -9,20 +9,20 @@
   <body>
 
     <!-- Main page -->
-    <section class="relative py-[7rem]">
+    <section class="relative py-[7rem] overflow-hidden">
 
       <!-- Hero -->
       <div class="absolute inset-0">
-        <img src="./images/Hero.svg" alt="Business" class="rounded-lg shadow-lg w-full">
+        <img src="./images/Hero.svg" alt="Business" class="w-full h-full object-cover">
       </div>
 
-      <div class="relative z-10 mx-auto px-4 ">
+      <div class="relative z-10 mx-auto max-w-7xl px-6 lg:px-12">
         <!-- Content -->
-        <div class="flex">
-          <div class="w-1/2 px-4">
-            <h1 class="text-[4.5rem] text-[#4F5955] font-bold leading-none">We bring success to you</h1>
-            <p class="text-[#4F5955]">Lorem ipsum dolor sit amet, consectetur. adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-            <a class="inline-block bg-[#4F5955] text-white px-10 py-3 no-underline cursor-pointer rounded self-start font-bold">Contact us</a>
+        <div class="flex flex-col lg:flex-row items-center">
+          <div class="w-full lg:w-1/2 space-y-8">
+            <h1 class="text-[#4F5955] font-bold text-[4.375rem] leading-[1.1] tracking-tight">We bring success to you</h1>
+            <p class="text-[#4F5955] text-lg leading-relaxed max-w-[85%]">Lorem ipsum dolor sit amet, consectetur. adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+            <a class="inline-block bg-[#4F5955] text-white px-10 py-3 rounded font-semibold hover:bg-[#3e4743] transition-all duration-300">Contact us</a>
           </div>
           <div class="w-1/2 p-4"></div>
         </div>
